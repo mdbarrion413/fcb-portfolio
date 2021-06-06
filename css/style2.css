@@ -1,0 +1,69 @@
+/*element {
+  property: value;
+}*/
+
+* { 
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: lightgray;
+  align-content: center;
+}
+
+h1, h2 {
+  color: dodgerblue;
+  font-family: 'Montserrat', sans-serif;
+ /* text-align: center; */
+}
+
+/*h2 {
+  color: dodgerblue;
+  border: 2px solid dodgerblue;
+  font-size: 18px;
+  padding: 6pt;
+}
+*/
+
+p {
+  /* font-family: verdana; */
+  font-size: 18px;
+}
+
+div {
+  text-align: center;
+}
+
+.box1 {
+  margin: 0 auto;
+  padding: 10px;
+  border: 5px solid dodgerblue;
+  width: 100px;
+  height: 100px;
+  /*text-align: justify;*/
+  /*float: left;*/
+}
+
+.box2 {
+/*  margin: 0 auto;
+  padding: 10px;*/
+  border: 4px solid dodgerblue;
+  /*width: 100px;
+  height: 100px;*/
+  /*text-align: justify;*/
+  /*float: left;*/
+}
+
+#landing {
+  height: 87.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width:330px;
+  height:311;
+}
